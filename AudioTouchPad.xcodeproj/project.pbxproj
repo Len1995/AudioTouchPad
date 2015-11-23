@@ -13,6 +13,10 @@
 		0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7A1BFF70B9004E4EA7 /* Assets.xcassets */; };
 		0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7C1BFF70B9004E4EA7 /* LaunchScreen.storyboard */; };
 		0D24AB891BFF70B9004E4EA7 /* AudioTouchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */; };
+		0D24AB991BFF74F1004E4EA7 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB951BFF74F1004E4EA7 /* clap.wav */; settings = {ASSET_TAGS = (); }; };
+		0D24AB9A1BFF74F1004E4EA7 /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB961BFF74F1004E4EA7 /* hihat.wav */; settings = {ASSET_TAGS = (); }; };
+		0D24AB9B1BFF74F1004E4EA7 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB971BFF74F1004E4EA7 /* kick.wav */; settings = {ASSET_TAGS = (); }; };
+		0D24AB9C1BFF74F1004E4EA7 /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB981BFF74F1004E4EA7 /* snare.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 		0D24AB841BFF70B9004E4EA7 /* AudioTouchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTouchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTouchPadTests.swift; sourceTree = "<group>"; };
 		0D24AB8A1BFF70B9004E4EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D24AB951BFF74F1004E4EA7 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		0D24AB961BFF74F1004E4EA7 /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hihat.wav; sourceTree = "<group>"; };
+		0D24AB971BFF74F1004E4EA7 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		0D24AB981BFF74F1004E4EA7 /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
+		0D24AB9E1BFF7B18004E4EA7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +68,11 @@
 		0D24AB671BFF70B9004E4EA7 = {
 			isa = PBXGroup;
 			children = (
+				0D24AB9E1BFF7B18004E4EA7 /* AVFoundation.framework */,
 				0D24AB721BFF70B9004E4EA7 /* AudioTouchPad */,
 				0D24AB871BFF70B9004E4EA7 /* AudioTouchPadTests */,
 				0D24AB711BFF70B9004E4EA7 /* Products */,
+				0D24AB9D1BFF74F9004E4EA7 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +105,17 @@
 				0D24AB8A1BFF70B9004E4EA7 /* Info.plist */,
 			);
 			path = AudioTouchPadTests;
+			sourceTree = "<group>";
+		};
+		0D24AB9D1BFF74F9004E4EA7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0D24AB951BFF74F1004E4EA7 /* clap.wav */,
+				0D24AB961BFF74F1004E4EA7 /* hihat.wav */,
+				0D24AB971BFF74F1004E4EA7 /* kick.wav */,
+				0D24AB981BFF74F1004E4EA7 /* snare.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +198,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D24AB9B1BFF74F1004E4EA7 /* kick.wav in Resources */,
+				0D24AB991BFF74F1004E4EA7 /* clap.wav in Resources */,
 				0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */,
 				0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */,
+				0D24AB9C1BFF74F1004E4EA7 /* snare.wav in Resources */,
+				0D24AB9A1BFF74F1004E4EA7 /* hihat.wav in Resources */,
 				0D24AB791BFF70B9004E4EA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
