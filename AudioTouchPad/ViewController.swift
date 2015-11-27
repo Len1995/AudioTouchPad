@@ -72,6 +72,7 @@ class ViewController: UIViewController {
         }
         else{
             kickSound1?.stop()
+            kickSound1?.currentTime = 0
             kickButton1.backgroundColor = UIColor.darkGrayColor()
             kickButton1Loop = false
         }
@@ -96,6 +97,7 @@ class ViewController: UIViewController {
         }
         else {
             kickSound2?.stop()
+            kickSound2?.currentTime = 0
             kickButton2.backgroundColor = UIColor.darkGrayColor()
             kickButton2Loop = false
         }
@@ -120,6 +122,7 @@ class ViewController: UIViewController {
         }
         else{
             synthSound?.stop()
+            synthSound?.currentTime = 0
             synthButton.backgroundColor = UIColor.darkGrayColor()
             synthButtonLoop = false
         }
