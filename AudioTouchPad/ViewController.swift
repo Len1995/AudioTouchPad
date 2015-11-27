@@ -46,17 +46,21 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet weak var kickButton: UIButton!
+    
+    var kickButtonLoop = false
     @IBAction func playKick(sender: AnyObject) {
-        if (loop == true){
+        if (loop == true && kickButtonLoop == false){
             kickSound?.prepareToPlay()
             kickSound?.play()
             kickSound?.numberOfLoops = -1
             kickButton.backgroundColor = UIColor.cyanColor()
+            kickButtonLoop = true
         }
         else {
             kickSound?.play()
-            kickSound?.numberOfLoops = 1
+            kickSound?.numberOfLoops = 0
             kickButton.backgroundColor = UIColor.darkGrayColor()
+            kickButtonLoop = false
         }
     }
     
