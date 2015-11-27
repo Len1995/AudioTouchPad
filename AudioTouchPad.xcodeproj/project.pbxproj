@@ -13,20 +13,9 @@
 		0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7A1BFF70B9004E4EA7 /* Assets.xcassets */; };
 		0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7C1BFF70B9004E4EA7 /* LaunchScreen.storyboard */; };
 		0D24AB891BFF70B9004E4EA7 /* AudioTouchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */; };
-		0D24AB991BFF74F1004E4EA7 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB951BFF74F1004E4EA7 /* clap.wav */; settings = {ASSET_TAGS = (); }; };
-		0D24AB9A1BFF74F1004E4EA7 /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB961BFF74F1004E4EA7 /* hihat.wav */; settings = {ASSET_TAGS = (); }; };
-		0D24AB9B1BFF74F1004E4EA7 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB971BFF74F1004E4EA7 /* kick.wav */; settings = {ASSET_TAGS = (); }; };
-		0D24AB9C1BFF74F1004E4EA7 /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB981BFF74F1004E4EA7 /* snare.wav */; settings = {ASSET_TAGS = (); }; };
 		0DE007621C089F2B003417E0 /* edm-kick-01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE007081C089F2B003417E0 /* edm-kick-01.wav */; settings = {ASSET_TAGS = (); }; };
 		0DE007631C089F2B003417E0 /* edm-kick-02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE007091C089F2B003417E0 /* edm-kick-02.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007641C089F2B003417E0 /* edm-kick-03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070A1C089F2B003417E0 /* edm-kick-03.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007651C089F2B003417E0 /* edm-kick-04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070B1C089F2B003417E0 /* edm-kick-04.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007661C089F2B003417E0 /* edm-kick-05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070C1C089F2B003417E0 /* edm-kick-05.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007671C089F2B003417E0 /* edm-kick-06.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070D1C089F2B003417E0 /* edm-kick-06.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007681C089F2B003417E0 /* edm-kick-07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070E1C089F2B003417E0 /* edm-kick-07.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE007691C089F2B003417E0 /* edm-kick-08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE0070F1C089F2B003417E0 /* edm-kick-08.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE0076A1C089F2B003417E0 /* edm-kick-09.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE007101C089F2B003417E0 /* edm-kick-09.wav */; settings = {ASSET_TAGS = (); }; };
-		0DE0076B1C089F2B003417E0 /* edm-kick-10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE007111C089F2B003417E0 /* edm-kick-10.wav */; settings = {ASSET_TAGS = (); }; };
+		0DE007BF1C08AE9C003417E0 /* sky-synth.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0DE007BE1C08AE9C003417E0 /* sky-synth.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,21 +39,10 @@
 		0D24AB841BFF70B9004E4EA7 /* AudioTouchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTouchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTouchPadTests.swift; sourceTree = "<group>"; };
 		0D24AB8A1BFF70B9004E4EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0D24AB951BFF74F1004E4EA7 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
-		0D24AB961BFF74F1004E4EA7 /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hihat.wav; sourceTree = "<group>"; };
-		0D24AB971BFF74F1004E4EA7 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
-		0D24AB981BFF74F1004E4EA7 /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
 		0D24AB9E1BFF7B18004E4EA7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		0DE007081C089F2B003417E0 /* edm-kick-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-01.wav"; sourceTree = "<group>"; };
-		0DE007091C089F2B003417E0 /* edm-kick-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-02.wav"; sourceTree = "<group>"; };
-		0DE0070A1C089F2B003417E0 /* edm-kick-03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-03.wav"; sourceTree = "<group>"; };
-		0DE0070B1C089F2B003417E0 /* edm-kick-04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-04.wav"; sourceTree = "<group>"; };
-		0DE0070C1C089F2B003417E0 /* edm-kick-05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-05.wav"; sourceTree = "<group>"; };
-		0DE0070D1C089F2B003417E0 /* edm-kick-06.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-06.wav"; sourceTree = "<group>"; };
-		0DE0070E1C089F2B003417E0 /* edm-kick-07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-07.wav"; sourceTree = "<group>"; };
-		0DE0070F1C089F2B003417E0 /* edm-kick-08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-08.wav"; sourceTree = "<group>"; };
-		0DE007101C089F2B003417E0 /* edm-kick-09.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-09.wav"; sourceTree = "<group>"; };
-		0DE007111C089F2B003417E0 /* edm-kick-10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "edm-kick-10.wav"; sourceTree = "<group>"; };
+		0DE007081C089F2B003417E0 /* edm-kick-01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "edm-kick-01.wav"; path = "../../Downloads/ProducerSpot-EDM-Drums/EDM Kicks/edm-kick-01.wav"; sourceTree = "<group>"; };
+		0DE007091C089F2B003417E0 /* edm-kick-02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "edm-kick-02.wav"; path = "../../Downloads/ProducerSpot-EDM-Drums/EDM Kicks/edm-kick-02.wav"; sourceTree = "<group>"; };
+		0DE007BE1C08AE9C003417E0 /* sky-synth.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "sky-synth.wav"; path = "../../Downloads/sky-synth.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,31 +108,11 @@
 		0D24AB9D1BFF74F9004E4EA7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0DE007071C089F2B003417E0 /* EDM Kicks */,
-				0D24AB951BFF74F1004E4EA7 /* clap.wav */,
-				0D24AB961BFF74F1004E4EA7 /* hihat.wav */,
-				0D24AB971BFF74F1004E4EA7 /* kick.wav */,
-				0D24AB981BFF74F1004E4EA7 /* snare.wav */,
-			);
-			name = Sounds;
-			sourceTree = "<group>";
-		};
-		0DE007071C089F2B003417E0 /* EDM Kicks */ = {
-			isa = PBXGroup;
-			children = (
+				0DE007BE1C08AE9C003417E0 /* sky-synth.wav */,
 				0DE007081C089F2B003417E0 /* edm-kick-01.wav */,
 				0DE007091C089F2B003417E0 /* edm-kick-02.wav */,
-				0DE0070A1C089F2B003417E0 /* edm-kick-03.wav */,
-				0DE0070B1C089F2B003417E0 /* edm-kick-04.wav */,
-				0DE0070C1C089F2B003417E0 /* edm-kick-05.wav */,
-				0DE0070D1C089F2B003417E0 /* edm-kick-06.wav */,
-				0DE0070E1C089F2B003417E0 /* edm-kick-07.wav */,
-				0DE0070F1C089F2B003417E0 /* edm-kick-08.wav */,
-				0DE007101C089F2B003417E0 /* edm-kick-09.wav */,
-				0DE007111C089F2B003417E0 /* edm-kick-10.wav */,
 			);
-			name = "EDM Kicks";
-			path = "../../Downloads/ProducerSpot-EDM-Drums/EDM Kicks";
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,22 +195,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D24AB9B1BFF74F1004E4EA7 /* kick.wav in Resources */,
-				0DE007691C089F2B003417E0 /* edm-kick-08.wav in Resources */,
-				0D24AB991BFF74F1004E4EA7 /* clap.wav in Resources */,
-				0DE007671C089F2B003417E0 /* edm-kick-06.wav in Resources */,
 				0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */,
 				0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */,
-				0DE0076A1C089F2B003417E0 /* edm-kick-09.wav in Resources */,
 				0DE007631C089F2B003417E0 /* edm-kick-02.wav in Resources */,
-				0DE007651C089F2B003417E0 /* edm-kick-04.wav in Resources */,
-				0D24AB9C1BFF74F1004E4EA7 /* snare.wav in Resources */,
-				0DE007641C089F2B003417E0 /* edm-kick-03.wav in Resources */,
-				0D24AB9A1BFF74F1004E4EA7 /* hihat.wav in Resources */,
 				0DE007621C089F2B003417E0 /* edm-kick-01.wav in Resources */,
-				0DE007661C089F2B003417E0 /* edm-kick-05.wav in Resources */,
-				0DE0076B1C089F2B003417E0 /* edm-kick-10.wav in Resources */,
-				0DE007681C089F2B003417E0 /* edm-kick-07.wav in Resources */,
+				0DE007BF1C08AE9C003417E0 /* sky-synth.wav in Resources */,
 				0D24AB791BFF70B9004E4EA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
