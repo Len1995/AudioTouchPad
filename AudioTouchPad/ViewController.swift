@@ -9,9 +9,11 @@
 import UIKit
 import AVFoundation
 
+var loop = false;
+
 class ViewController: UIViewController {
     
-    var kickButton : AVAudioPlayer?
+    var kickSound : AVAudioPlayer?
     
     func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer?  {
         //1
@@ -32,8 +34,8 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        if let kickButton = self.setupAudioPlayerWithFile("kick", type:"wav") {
-            self.kickButton = kickButton
+        if let kickSound = self.setupAudioPlayerWithFile("edm-kick-01", type:"wav") {
+            self.kickSound = kickSound
         }
         super.viewDidLoad()
     }
@@ -43,10 +45,31 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet weak var kickButton: UIButton!
     @IBAction func playKick(sender: AnyObject) {
-        kickButton?.prepareToPlay()
-        kickButton?.play()
-        kickButton?.numberOfLoops = -1
+        if (loop == true){
+            kickSound?.prepareToPlay()
+            kickSound?.play()
+            kickSound?.numberOfLoops = -1
+            kickButton.backgroundColor = UIColor.cyanColor()
+        }
+        else {
+            kickSound?.play()
+            kickSound?.numberOfLoops = 1
+            kickButton.backgroundColor = UIColor.darkGrayColor()
+        }
+    }
+    
+    @IBOutlet weak var loopButton: UIButton!
+    @IBAction func loopSound(sender: AnyObject) {
+        if (loop == false) {
+            loop = true
+            loopButton.backgroundColor = UIColor.greenColor()
+        }
+        else{
+            loop = false
+            loopButton.backgroundColor = UIColor.redColor()
+        }
     }
 }
 
