@@ -9,13 +9,34 @@
 import UIKit
 import AVFoundation
 
-var loop = false;
-
-class ViewController: UIViewController {
+class ViewController: UIViewController, AVAudioPlayerDelegate {
     
-    var kickSound1 : AVAudioPlayer?
-    var kickSound2 : AVAudioPlayer?
-    var synthSound : AVAudioPlayer?
+    var loop = false;
+    var bassDrop : AVAudioPlayer?
+    var dropThisBeast : AVAudioPlayer?
+    var dubstep01 : AVAudioPlayer?
+    var dubstep03 : AVAudioPlayer?
+    var dubstep04 : AVAudioPlayer?
+    var dubstep05 : AVAudioPlayer?
+    var dubstep07 : AVAudioPlayer?
+    var dubstep08 : AVAudioPlayer?
+    var dubstep10 : AVAudioPlayer?
+    var dubstep11 : AVAudioPlayer?
+    var dubstep12 : AVAudioPlayer?
+    var glitchyVoice : AVAudioPlayer?
+    var growlChop : AVAudioPlayer?
+    var guitarSlayer : AVAudioPlayer?
+    var heavyDrop : AVAudioPlayer?
+    var myishish : AVAudioPlayer?
+    var robotFace : AVAudioPlayer?
+    var robotGlitch : AVAudioPlayer?
+    var robotLoop : AVAudioPlayer?
+    var robotNormal : AVAudioPlayer?
+    var scratcher : AVAudioPlayer?
+    var silverRobot : AVAudioPlayer?
+    var snapfui : AVAudioPlayer?
+    var superRobot : AVAudioPlayer?
+    var three : AVAudioPlayer?
     
     func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer?  {
         //1
@@ -36,15 +57,82 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLoad() {
-        if let kickSound1 = self.setupAudioPlayerWithFile("edm-kick-01", type:"wav") {
-            self.kickSound1 = kickSound1
+        if let bassDrop = self.setupAudioPlayerWithFile("bassdrop", type:"wav") {
+            self.bassDrop = bassDrop
         }
-        if let kickSound2 = self.setupAudioPlayerWithFile("edm-kick-02", type:"wav") {
-            self.kickSound2 = kickSound2
+        if let dropThisBeast = self.setupAudioPlayerWithFile("dropthisbeast", type:"wav") {
+            self.dropThisBeast = dropThisBeast
         }
-        if let synthSound = self.setupAudioPlayerWithFile("sky-synth", type:"wav") {
-            self.synthSound = synthSound
+        if let dubstep01 = self.setupAudioPlayerWithFile("dubstep01", type:"wav") {
+            self.dubstep01 = dubstep01
         }
+        if let dubstep03 = self.setupAudioPlayerWithFile("dubstep03", type:"wav") {
+            self.dubstep03 = dubstep03
+        }
+        if let dubstep04 = self.setupAudioPlayerWithFile("dubstep04", type:"wav") {
+            self.dubstep04 = dubstep04
+        }
+        if let dubstep05 = self.setupAudioPlayerWithFile("dubstep05", type:"wav") {
+            self.dubstep05 = dubstep05
+        }
+        if let dubstep07 = self.setupAudioPlayerWithFile("dubstep07", type:"wav") {
+            self.dubstep07 = dubstep07
+        }
+        if let dubstep08 = self.setupAudioPlayerWithFile("dubstep08", type:"wav") {
+            self.dubstep08 = dubstep08
+        }
+        if let dubstep10 = self.setupAudioPlayerWithFile("dubstep10", type:"wav") {
+            self.dubstep10 = dubstep10
+        }
+        if let dubstep11 = self.setupAudioPlayerWithFile("dubstep11", type:"wav") {
+            self.dubstep11 = dubstep11
+        }
+        if let dubstep12 = self.setupAudioPlayerWithFile("dubstep12", type:"wav") {
+            self.dubstep12 = dubstep12
+        }
+        if let glitchyVoice = self.setupAudioPlayerWithFile("glitchyvoice", type:"wav") {
+            self.glitchyVoice = glitchyVoice
+        }
+        if let growlChop = self.setupAudioPlayerWithFile("growlchop", type:"wav") {
+            self.growlChop = growlChop
+        }
+        if let guitarSlayer = self.setupAudioPlayerWithFile("guitarslayer", type:"wav") {
+            self.guitarSlayer = guitarSlayer
+        }
+        if let heavyDrop = self.setupAudioPlayerWithFile("heavyDrop", type:"wav") {
+            self.heavyDrop = heavyDrop
+        }
+        if let myishish = self.setupAudioPlayerWithFile("myishish", type:"wav") {
+            self.myishish = myishish
+        }
+        if let robotFace = self.setupAudioPlayerWithFile("robotface", type:"wav") {
+            self.robotFace = robotFace
+        }
+        if let robotGlitch = self.setupAudioPlayerWithFile("robotflitch", type:"wav") {
+            self.robotGlitch = robotGlitch
+        }
+        if let robotLoop = self.setupAudioPlayerWithFile("robotloop", type:"wav") {
+            self.robotLoop = robotLoop
+        }
+        if let robotNormal = self.setupAudioPlayerWithFile("robotnormal", type:"wav") {
+            self.robotNormal = robotNormal
+        }
+        if let scratcher = self.setupAudioPlayerWithFile("scratcher", type:"wav") {
+            self.scratcher = scratcher
+        }
+        if let silverRobot = self.setupAudioPlayerWithFile("silverrobot", type:"wav") {
+            self.silverRobot = silverRobot
+        }
+        if let snapfui = self.setupAudioPlayerWithFile("snapfui", type:"wav") {
+            self.snapfui = snapfui
+        }
+        if let superRobot = self.setupAudioPlayerWithFile("superrobot", type:"wav") {
+            self.superRobot = superRobot
+        }
+        if let three = self.setupAudioPlayerWithFile("three", type:"wav") {
+            self.three = three
+        }
+
         super.viewDidLoad()
         
     }
@@ -78,28 +166,6 @@ class ViewController: UIViewController {
         }
     }
     
-    
-    //Kick 1 Button
-    @IBOutlet weak var kickButton1: UIButton!
-    var kickButton1Loop = false
-    @IBAction func playKick1(sender: AnyObject) {
-        playSound(kickSound1!, button: kickButton1, isLoop: &kickButton1Loop)
-    }
-    
-    //Kick 2 Button
-    @IBOutlet weak var kickButton2: UIButton!
-    var kickButton2Loop = false
-    @IBAction func playKick2(sender: AnyObject) {
-        playSound(kickSound2!, button: kickButton2, isLoop: &kickButton2Loop)
-    }
-    
-    //Synth Music Button
-    @IBOutlet weak var synthButton: UIButton!
-    var synthButtonLoop = false
-    @IBAction func playSynth(sender: AnyObject) {
-        playSound(synthSound!, button: synthButton!, isLoop: &synthButtonLoop)
-    }
-    
     //Loop button
     @IBOutlet weak var loopButton: UIButton!
     @IBAction func loopToggle(sender: AnyObject) {
@@ -112,24 +178,16 @@ class ViewController: UIViewController {
             loopButton.backgroundColor = UIColor.redColor()
         }
     }
+    @IBOutlet weak var bassDropButton: UIButton!
+    var bassDropLoop = false
+    @IBAction func playBassDrop(sender: AnyObject) {
+        playSound(bassDrop!, button: bassDropButton, isLoop: &bassDropLoop)
+    }
     
-    @IBOutlet weak var play1Button: UIButton!
-    var play1ButtonLoop = false
-    @IBAction func play1Sound(sender: AnyObject) {
-        playSound(synthSound!, button: synthButton, isLoop: &synthButtonLoop)
-        playSound(kickSound1!, button: kickButton1, isLoop: &kickButton1Loop)
-        if (loop == true && play1ButtonLoop == false){
-            play1ButtonLoop = true
-            play1Button.backgroundColor = UIColor.cyanColor()
-        }
-        else if (loop == false && kickButton2Loop == false){
-            play1ButtonLoop = true
-            play1Button.backgroundColor = UIColor.darkGrayColor()
-        }
-        else {
-            play1ButtonLoop = false
-            play1Button.backgroundColor = UIColor.darkGrayColor()
-        }
+    @IBOutlet weak var heavyDropButton: UIButton!
+    var heavyDropLoop = false
+    @IBAction func playHeavyDrop(sender: AnyObject) {
+        playSound(heavyDrop!, button: heavyDropButton, isLoop: &heavyDropLoop)
     }
 }
 

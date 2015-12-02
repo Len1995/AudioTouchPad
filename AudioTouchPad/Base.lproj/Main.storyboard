@@ -2,8 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -19,20 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpB-px-T3D">
-                                <rect key="frame" x="20" y="436" width="60" height="60"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="fJr-hm-Jjh"/>
-                                    <constraint firstAttribute="height" constant="60" id="mus-R7-7in"/>
-                                </constraints>
-                                <state key="normal" title="Kick 1">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="playKick1:" destination="BYZ-38-t0r" eventType="touchDown" id="2nJ-QK-1bL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkk-cG-0CA">
                                 <rect key="frame" x="20" y="504" width="560" height="76"/>
                                 <color key="backgroundColor" red="1" green="0.029556935406970242" blue="0.17627491307134757" alpha="1" colorSpace="calibratedRGB"/>
@@ -43,62 +27,68 @@
                                     <action selector="loopToggle:" destination="BYZ-38-t0r" eventType="touchDown" id="vgC-lE-BIX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PaJ-YH-j3b">
-                                <rect key="frame" x="88" y="436" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-te-TTV">
+                                <rect key="frame" x="20" y="20" width="75" height="75"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="ClI-cg-lBG"/>
-                                    <constraint firstAttribute="height" constant="60" id="ga5-FW-5Zb"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="srN-mR-ujH"/>
-                                </constraints>
-                                <state key="normal" title="Kick 2">
+                                <state key="normal" title="Bass Drop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playKick2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o1T-fO-aIW"/>
+                                    <action selector="playBassDrop:" destination="BYZ-38-t0r" eventType="touchDown" id="Pqk-6K-PuA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xm-wa-FfA">
-                                <rect key="frame" x="156" y="436" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ykR-5B-5dB">
+                                <rect key="frame" x="505" y="20" width="75" height="75"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Synth">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Glitch Voice">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yvO-ls-YkK">
+                                <rect key="frame" x="120" y="20" width="75" height="75"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Heavy Drop">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playSynth:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jkl-o3-kOb"/>
+                                    <action selector="playHeavyDrop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v03-k5-eUo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUE-NL-Rgk">
-                                <rect key="frame" x="20" y="345" width="60" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-ye-xtg">
+                                <rect key="frame" x="220" y="20" width="75" height="75"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Play 1">
+                                <state key="normal" title="Guitar Slayer">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <action selector="play1Sound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efI-GW-XJk"/>
-                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CX7-Ne-wtG">
+                                <rect key="frame" x="305" y="20" width="75" height="75"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Scratcher">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GDf-Tx-yIk">
+                                <rect key="frame" x="405" y="20" width="75" height="75"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Growl Chop">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="PaJ-YH-j3b" firstAttribute="baseline" secondItem="zpB-px-T3D" secondAttribute="firstBaseline" id="0wC-oZ-jcu"/>
-                            <constraint firstItem="PaJ-YH-j3b" firstAttribute="leading" secondItem="zpB-px-T3D" secondAttribute="trailing" constant="8" symbolic="YES" id="5R6-Si-fDz"/>
                             <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="484" id="FVs-q6-o9E"/>
-                            <constraint firstItem="PaJ-YH-j3b" firstAttribute="firstBaseline" secondItem="zpB-px-T3D" secondAttribute="baseline" id="JjD-Pk-s3K"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dkk-cG-0CA" secondAttribute="trailing" id="KyG-8y-TMz"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dkk-cG-0CA" secondAttribute="bottom" constant="20" id="Qjn-SF-3bl"/>
                             <constraint firstAttribute="leadingMargin" secondItem="dkk-cG-0CA" secondAttribute="leading" id="TGu-aw-XMC"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="zpB-px-T3D" secondAttribute="leading" id="YZY-mp-2Zx"/>
-                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="zpB-px-T3D" secondAttribute="bottom" constant="8" id="fCV-ZU-WY0"/>
-                            <constraint firstItem="PaJ-YH-j3b" firstAttribute="top" secondItem="zpB-px-T3D" secondAttribute="top" id="ox4-yX-gem"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="kickButton1" destination="zpB-px-T3D" id="vFO-rF-HF9"/>
-                        <outlet property="kickButton2" destination="PaJ-YH-j3b" id="rJv-M1-3u0"/>
+                        <outlet property="bassDropButton" destination="8Dx-te-TTV" id="Hsq-rV-vxC"/>
+                        <outlet property="heavyDropButton" destination="yvO-ls-YkK" id="qzF-wG-0HN"/>
                         <outlet property="loopButton" destination="dkk-cG-0CA" id="w5e-Cy-I8f"/>
-                        <outlet property="play1Button" destination="GUE-NL-Rgk" id="BdU-xW-LAT"/>
-                        <outlet property="synthButton" destination="8xm-wa-FfA" id="7Ah-wb-8Pk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
