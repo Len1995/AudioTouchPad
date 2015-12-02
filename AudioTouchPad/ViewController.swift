@@ -89,7 +89,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         }
         if let dubstep12 = self.setupAudioPlayerWithFile("dubstep12", type:"wav") {
             self.dubstep12 = dubstep12
-        }
+        }//comment
         if let glitchyVoice = self.setupAudioPlayerWithFile("glitchyvoice", type:"wav") {
             self.glitchyVoice = glitchyVoice
         }
