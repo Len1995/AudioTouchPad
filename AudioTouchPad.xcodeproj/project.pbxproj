@@ -38,6 +38,31 @@
 		0D46480F1C0F45530059214A /* dubstep08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F61C0F45530059214A /* dubstep08.wav */; settings = {ASSET_TAGS = (); }; };
 		0D4648101C0F45530059214A /* robotglitch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F71C0F45530059214A /* robotglitch.wav */; settings = {ASSET_TAGS = (); }; };
 		0D4648111C0F45530059214A /* heavydrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F81C0F45530059214A /* heavydrop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D46483C1C0F5F590059214A /* .localized in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648131C0F5F590059214A /* .localized */; settings = {ASSET_TAGS = (); }; };
+		0D46483D1C0F5F590059214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4648161C0F5F590059214A /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		0D46483E1C0F5F590059214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648171C0F5F590059214A /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		0D46483F1C0F5F590059214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648181C0F5F590059214A /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0D4648401C0F5F590059214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D46481A1C0F5F590059214A /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0D4648411C0F5F590059214A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D46481C1C0F5F590059214A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		0D4648421C0F5F590059214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46481D1C0F5F590059214A /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0D4648431C0F5F590059214A /* AudioTouchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4648221C0F5F590059214A /* AudioTouchPadTests.swift */; settings = {ASSET_TAGS = (); }; };
+		0D4648441C0F5F590059214A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648231C0F5F590059214A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		0D4648451C0F5F590059214A /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648241C0F5F590059214A /* clap.wav */; settings = {ASSET_TAGS = (); }; };
+		0D4648461C0F5F590059214A /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648251C0F5F590059214A /* hihat.wav */; settings = {ASSET_TAGS = (); }; };
+		0D4648471C0F5F590059214A /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648261C0F5F590059214A /* kick.wav */; settings = {ASSET_TAGS = (); }; };
+		0D4648481C0F5F590059214A /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648271C0F5F590059214A /* snare.wav */; settings = {ASSET_TAGS = (); }; };
+		0D4648491C0F5F590059214A /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648291C0F5F590059214A /* clap.wav */; settings = {ASSET_TAGS = (); }; };
+		0D46484A1C0F5F590059214A /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D46482A1C0F5F590059214A /* hihat.wav */; settings = {ASSET_TAGS = (); }; };
+		0D46484B1C0F5F590059214A /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D46482B1C0F5F590059214A /* kick.wav */; settings = {ASSET_TAGS = (); }; };
+		0D46484C1C0F5F590059214A /* snare.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D46482C1C0F5F590059214A /* snare.wav */; settings = {ASSET_TAGS = (); }; };
+		0D46484D1C0F5F590059214A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46482E1C0F5F590059214A /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		0D46484E1C0F5F590059214A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D46482F1C0F5F590059214A /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		0D46484F1C0F5F590059214A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648301C0F5F590059214A /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0D4648501C0F5F590059214A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648321C0F5F590059214A /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		0D4648511C0F5F590059214A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4648341C0F5F590059214A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		0D4648521C0F5F590059214A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4648351C0F5F590059214A /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		0D4648531C0F5F590059214A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D46483A1C0F5F590059214A /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		0D4648541C0F5F590059214A /* SwiftKickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D46483B1C0F5F590059214A /* SwiftKickTests.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +72,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 0D24AB6F1BFF70B9004E4EA7;
 			remoteInfo = AudioTouchPad;
+		};
+		0D4648571C0F5F590059214A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4648361C0F5F590059214A /* SwiftKick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D9261251BF62F45003531EC;
+			remoteInfo = SwiftKick;
+		};
+		0D4648591C0F5F590059214A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4648361C0F5F590059214A /* SwiftKick.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0D9261391BF62F45003531EC;
+			remoteInfo = SwiftKickTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -87,6 +126,33 @@
 		0D4647F61C0F45530059214A /* dubstep08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep08.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep08.wav"; sourceTree = "<group>"; };
 		0D4647F71C0F45530059214A /* robotglitch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = robotglitch.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/robotglitch.wav"; sourceTree = "<group>"; };
 		0D4647F81C0F45530059214A /* heavydrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = heavydrop.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/heavydrop.wav"; sourceTree = "<group>"; };
+		0D4648131C0F5F590059214A /* .localized */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .localized; sourceTree = "<group>"; };
+		0D4648161C0F5F590059214A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D4648171C0F5F590059214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D4648191C0F5F590059214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D46481B1C0F5F590059214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D46481C1C0F5F590059214A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D46481D1C0F5F590059214A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D46481E1C0F5F590059214A /* AudioTouchPad.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AudioTouchPad.xcodeproj; sourceTree = "<group>"; };
+		0D4648221C0F5F590059214A /* AudioTouchPadTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioTouchPadTests.swift; sourceTree = "<group>"; };
+		0D4648231C0F5F590059214A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4648241C0F5F590059214A /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		0D4648251C0F5F590059214A /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hihat.wav; sourceTree = "<group>"; };
+		0D4648261C0F5F590059214A /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		0D4648271C0F5F590059214A /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
+		0D4648291C0F5F590059214A /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		0D46482A1C0F5F590059214A /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hihat.wav; sourceTree = "<group>"; };
+		0D46482B1C0F5F590059214A /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		0D46482C1C0F5F590059214A /* snare.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snare.wav; sourceTree = "<group>"; };
+		0D46482E1C0F5F590059214A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D46482F1C0F5F590059214A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D4648311C0F5F590059214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D4648331C0F5F590059214A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D4648341C0F5F590059214A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4648351C0F5F590059214A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D4648361C0F5F590059214A /* SwiftKick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftKick.xcodeproj; sourceTree = "<group>"; };
+		0D46483A1C0F5F590059214A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D46483B1C0F5F590059214A /* SwiftKickTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftKickTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +218,7 @@
 		0D24AB9D1BFF74F9004E4EA7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				0D4648121C0F5F590059214A /* Desktop */,
 				0D4647E01C0F45530059214A /* robotnormal.wav */,
 				0D4647E11C0F45530059214A /* myishish.wav */,
 				0D4647E21C0F45530059214A /* dubstep01.wav */,
@@ -179,6 +246,103 @@
 				0D4647F81C0F45530059214A /* heavydrop.wav */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		0D4648121C0F5F590059214A /* Desktop */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648131C0F5F590059214A /* .localized */,
+				0D4648141C0F5F590059214A /* AudioTouchPad */,
+				0D4648281C0F5F590059214A /* SwiftKick */,
+			);
+			name = Desktop;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0D4648141C0F5F590059214A /* AudioTouchPad */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648151C0F5F590059214A /* AudioTouchPad */,
+				0D46481E1C0F5F590059214A /* AudioTouchPad.xcodeproj */,
+				0D4648211C0F5F590059214A /* AudioTouchPadTests */,
+				0D4648241C0F5F590059214A /* clap.wav */,
+				0D4648251C0F5F590059214A /* hihat.wav */,
+				0D4648261C0F5F590059214A /* kick.wav */,
+				0D4648271C0F5F590059214A /* snare.wav */,
+			);
+			path = AudioTouchPad;
+			sourceTree = "<group>";
+		};
+		0D4648151C0F5F590059214A /* AudioTouchPad */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648161C0F5F590059214A /* AppDelegate.swift */,
+				0D4648171C0F5F590059214A /* Assets.xcassets */,
+				0D4648181C0F5F590059214A /* LaunchScreen.storyboard */,
+				0D46481A1C0F5F590059214A /* Main.storyboard */,
+				0D46481C1C0F5F590059214A /* Info.plist */,
+				0D46481D1C0F5F590059214A /* ViewController.swift */,
+			);
+			path = AudioTouchPad;
+			sourceTree = "<group>";
+		};
+		0D46481F1C0F5F590059214A /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4648211C0F5F590059214A /* AudioTouchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648221C0F5F590059214A /* AudioTouchPadTests.swift */,
+				0D4648231C0F5F590059214A /* Info.plist */,
+			);
+			path = AudioTouchPadTests;
+			sourceTree = "<group>";
+		};
+		0D4648281C0F5F590059214A /* SwiftKick */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648291C0F5F590059214A /* clap.wav */,
+				0D46482A1C0F5F590059214A /* hihat.wav */,
+				0D46482B1C0F5F590059214A /* kick.wav */,
+				0D46482C1C0F5F590059214A /* snare.wav */,
+				0D46482D1C0F5F590059214A /* SwiftKick */,
+				0D4648361C0F5F590059214A /* SwiftKick.xcodeproj */,
+				0D4648391C0F5F590059214A /* SwiftKickTests */,
+			);
+			path = SwiftKick;
+			sourceTree = "<group>";
+		};
+		0D46482D1C0F5F590059214A /* SwiftKick */ = {
+			isa = PBXGroup;
+			children = (
+				0D46482E1C0F5F590059214A /* AppDelegate.swift */,
+				0D46482F1C0F5F590059214A /* Assets.xcassets */,
+				0D4648301C0F5F590059214A /* LaunchScreen.storyboard */,
+				0D4648321C0F5F590059214A /* Main.storyboard */,
+				0D4648341C0F5F590059214A /* Info.plist */,
+				0D4648351C0F5F590059214A /* ViewController.swift */,
+			);
+			path = SwiftKick;
+			sourceTree = "<group>";
+		};
+		0D4648371C0F5F590059214A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4648581C0F5F590059214A /* SwiftKick.app */,
+				0D46485A1C0F5F590059214A /* SwiftKickTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4648391C0F5F590059214A /* SwiftKickTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D46483A1C0F5F590059214A /* Info.plist */,
+				0D46483B1C0F5F590059214A /* SwiftKickTests.swift */,
+			);
+			path = SwiftKickTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +412,16 @@
 			mainGroup = 0D24AB671BFF70B9004E4EA7;
 			productRefGroup = 0D24AB711BFF70B9004E4EA7 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0D46481F1C0F5F590059214A /* Products */;
+					ProjectRef = 0D46481E1C0F5F590059214A /* AudioTouchPad.xcodeproj */;
+				},
+				{
+					ProductGroup = 0D4648371C0F5F590059214A /* Products */;
+					ProjectRef = 0D4648361C0F5F590059214A /* SwiftKick.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				0D24AB6F1BFF70B9004E4EA7 /* AudioTouchPad */,
@@ -255,6 +429,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		0D4648581C0F5F590059214A /* SwiftKick.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwiftKick.app;
+			remoteRef = 0D4648571C0F5F590059214A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0D46485A1C0F5F590059214A /* SwiftKickTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftKickTests.xctest;
+			remoteRef = 0D4648591C0F5F590059214A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0D24AB6E1BFF70B9004E4EA7 /* Resources */ = {
@@ -264,22 +455,39 @@
 				0D4648021C0F45530059214A /* dubstep11.wav in Resources */,
 				0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */,
 				0D4647FF1C0F45530059214A /* scratcher.wav in Resources */,
+				0D46484A1C0F5F590059214A /* hihat.wav in Resources */,
+				0D46484C1C0F5F590059214A /* snare.wav in Resources */,
 				0D46480B1C0F45530059214A /* dubstep03.wav in Resources */,
+				0D4648501C0F5F590059214A /* Main.storyboard in Resources */,
+				0D46483E1C0F5F590059214A /* Assets.xcassets in Resources */,
 				0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */,
+				0D4648481C0F5F590059214A /* snare.wav in Resources */,
+				0D4648531C0F5F590059214A /* Info.plist in Resources */,
+				0D4648511C0F5F590059214A /* Info.plist in Resources */,
+				0D46484F1C0F5F590059214A /* LaunchScreen.storyboard in Resources */,
 				0D4647FB1C0F45530059214A /* dubstep01.wav in Resources */,
 				0D4648051C0F45530059214A /* robotloop.wav in Resources */,
+				0D4648411C0F5F590059214A /* Info.plist in Resources */,
 				0D46480F1C0F45530059214A /* dubstep08.wav in Resources */,
+				0D4648441C0F5F590059214A /* Info.plist in Resources */,
 				0D4648031C0F45530059214A /* snapfui.wav in Resources */,
 				0D4648071C0F45530059214A /* three.wav in Resources */,
+				0D46484E1C0F5F590059214A /* Assets.xcassets in Resources */,
+				0D4648401C0F5F590059214A /* Main.storyboard in Resources */,
 				0D4648001C0F45530059214A /* robotface.wav in Resources */,
+				0D46483C1C0F5F590059214A /* .localized in Resources */,
 				0D4648061C0F45530059214A /* silverrobot.wav in Resources */,
+				0D4648491C0F5F590059214A /* clap.wav in Resources */,
 				0D4647FC1C0F45530059214A /* bassdrop.wav in Resources */,
 				0D4647FE1C0F45530059214A /* dropthisbeast.wav in Resources */,
+				0D4648461C0F5F590059214A /* hihat.wav in Resources */,
 				0D4647FA1C0F45530059214A /* myishish.wav in Resources */,
+				0D46483F1C0F5F590059214A /* LaunchScreen.storyboard in Resources */,
 				0D46480A1C0F45530059214A /* dubstep04.wav in Resources */,
 				0D4648041C0F45530059214A /* superrobot.wav in Resources */,
 				0D4647F91C0F45530059214A /* robotnormal.wav in Resources */,
 				0D4648011C0F45530059214A /* dubstep12.wav in Resources */,
+				0D4648451C0F5F590059214A /* clap.wav in Resources */,
 				0D4648091C0F45530059214A /* dubstep05.wav in Resources */,
 				0D24AB791BFF70B9004E4EA7 /* Main.storyboard in Resources */,
 				0D46480E1C0F45530059214A /* glitchyvoice.wav in Resources */,
@@ -289,6 +497,8 @@
 				0D4648111C0F45530059214A /* heavydrop.wav in Resources */,
 				0D4648081C0F45530059214A /* dubstep07.wav in Resources */,
 				0D46480D1C0F45530059214A /* growlchop.wav in Resources */,
+				0D46484B1C0F5F590059214A /* kick.wav in Resources */,
+				0D4648471C0F5F590059214A /* kick.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +516,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D46484D1C0F5F590059214A /* AppDelegate.swift in Sources */,
+				0D4648541C0F5F590059214A /* SwiftKickTests.swift in Sources */,
+				0D46483D1C0F5F590059214A /* AppDelegate.swift in Sources */,
 				0D24AB761BFF70B9004E4EA7 /* ViewController.swift in Sources */,
+				0D4648421C0F5F590059214A /* ViewController.swift in Sources */,
+				0D4648521C0F5F590059214A /* ViewController.swift in Sources */,
+				0D4648431C0F5F590059214A /* AudioTouchPadTests.swift in Sources */,
 				0D24AB741BFF70B9004E4EA7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +560,38 @@
 				0D24AB7D1BFF70B9004E4EA7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4648181C0F5F590059214A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4648191C0F5F590059214A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D46481A1C0F5F590059214A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D46481B1C0F5F590059214A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4648301C0F5F590059214A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4648311C0F5F590059214A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4648321C0F5F590059214A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4648331C0F5F590059214A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

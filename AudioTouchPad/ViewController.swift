@@ -178,12 +178,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             loopButton.backgroundColor = UIColor.redColor()
         }
     }
+    //Bass Drop button
     @IBOutlet weak var bassDropButton: UIButton!
     var bassDropLoop = false
     @IBAction func playBassDrop(sender: AnyObject) {
         playSound(bassDrop!, button: bassDropButton, isLoop: &bassDropLoop)
     }
-    
+    //Heavy Drop button
     @IBOutlet weak var heavyDropButton: UIButton!
     var heavyDropLoop = false
     @IBAction func playHeavyDrop(sender: AnyObject) {
