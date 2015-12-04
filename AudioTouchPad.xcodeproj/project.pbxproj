@@ -13,31 +13,31 @@
 		0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7A1BFF70B9004E4EA7 /* Assets.xcassets */; };
 		0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D24AB7C1BFF70B9004E4EA7 /* LaunchScreen.storyboard */; };
 		0D24AB891BFF70B9004E4EA7 /* AudioTouchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */; };
-		0D4647F91C0F45530059214A /* robotnormal.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E01C0F45530059214A /* robotnormal.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FA1C0F45530059214A /* myishish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E11C0F45530059214A /* myishish.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FB1C0F45530059214A /* dubstep01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E21C0F45530059214A /* dubstep01.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FC1C0F45530059214A /* bassdrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E31C0F45530059214A /* bassdrop.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FD1C0F45530059214A /* dubstep10.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E41C0F45530059214A /* dubstep10.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FE1C0F45530059214A /* dropthisbeast.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E51C0F45530059214A /* dropthisbeast.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4647FF1C0F45530059214A /* scratcher.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E61C0F45530059214A /* scratcher.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648001C0F45530059214A /* robotface.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E71C0F45530059214A /* robotface.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648011C0F45530059214A /* dubstep12.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E81C0F45530059214A /* dubstep12.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648021C0F45530059214A /* dubstep11.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647E91C0F45530059214A /* dubstep11.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648031C0F45530059214A /* snapfui.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647EA1C0F45530059214A /* snapfui.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648041C0F45530059214A /* superrobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647EB1C0F45530059214A /* superrobot.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648051C0F45530059214A /* robotloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647EC1C0F45530059214A /* robotloop.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648061C0F45530059214A /* silverrobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647ED1C0F45530059214A /* silverrobot.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648071C0F45530059214A /* three.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647EE1C0F45530059214A /* three.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648081C0F45530059214A /* dubstep07.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647EF1C0F45530059214A /* dubstep07.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648091C0F45530059214A /* dubstep05.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F01C0F45530059214A /* dubstep05.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480A1C0F45530059214A /* dubstep04.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F11C0F45530059214A /* dubstep04.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480B1C0F45530059214A /* dubstep03.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F21C0F45530059214A /* dubstep03.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480C1C0F45530059214A /* guitarslayer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F31C0F45530059214A /* guitarslayer.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480D1C0F45530059214A /* growlchop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F41C0F45530059214A /* growlchop.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480E1C0F45530059214A /* glitchyvoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F51C0F45530059214A /* glitchyvoice.wav */; settings = {ASSET_TAGS = (); }; };
-		0D46480F1C0F45530059214A /* dubstep08.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F61C0F45530059214A /* dubstep08.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648101C0F45530059214A /* robotglitch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F71C0F45530059214A /* robotglitch.wav */; settings = {ASSET_TAGS = (); }; };
-		0D4648111C0F45530059214A /* heavydrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D4647F81C0F45530059214A /* heavydrop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EAB1C11CA520016CF27 /* superrobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E921C11CA520016CF27 /* superrobot.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EAC1C11CA520016CF27 /* heavydrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E931C11CA520016CF27 /* heavydrop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EAD1C11CA520016CF27 /* robotglitch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E941C11CA520016CF27 /* robotglitch.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EAE1C11CA520016CF27 /* dubstep6.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E951C11CA520016CF27 /* dubstep6.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EAF1C11CA520016CF27 /* glitchyvoice.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E961C11CA520016CF27 /* glitchyvoice.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB01C11CA520016CF27 /* growlchop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E971C11CA520016CF27 /* growlchop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB11C11CA520016CF27 /* guitarslayer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E981C11CA520016CF27 /* guitarslayer.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB21C11CA520016CF27 /* dubstep2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E991C11CA520016CF27 /* dubstep2.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB31C11CA520016CF27 /* dubstep3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9A1C11CA520016CF27 /* dubstep3.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB41C11CA520016CF27 /* dubstep4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9B1C11CA520016CF27 /* dubstep4.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB51C11CA520016CF27 /* dubstep5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9C1C11CA520016CF27 /* dubstep5.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB61C11CA520016CF27 /* three.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9D1C11CA520016CF27 /* three.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB71C11CA520016CF27 /* silverrobot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9E1C11CA520016CF27 /* silverrobot.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB81C11CA520016CF27 /* robotloop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987E9F1C11CA520016CF27 /* robotloop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EB91C11CA520016CF27 /* snapfui.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA01C11CA520016CF27 /* snapfui.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBA1C11CA520016CF27 /* dubstep8.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA11C11CA520016CF27 /* dubstep8.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBB1C11CA520016CF27 /* dubstep9.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA21C11CA520016CF27 /* dubstep9.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBC1C11CA520016CF27 /* robotface.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA31C11CA520016CF27 /* robotface.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBD1C11CA520016CF27 /* scratcher.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA41C11CA520016CF27 /* scratcher.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBE1C11CA520016CF27 /* dropthisbeast.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA51C11CA520016CF27 /* dropthisbeast.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EBF1C11CA520016CF27 /* dubstep1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA61C11CA520016CF27 /* dubstep1.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EC01C11CA520016CF27 /* dubstep7.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA71C11CA520016CF27 /* dubstep7.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EC11C11CA520016CF27 /* bassdrop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA81C11CA520016CF27 /* bassdrop.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EC21C11CA520016CF27 /* myishish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EA91C11CA520016CF27 /* myishish.wav */; settings = {ASSET_TAGS = (); }; };
+		0D987EC31C11CA520016CF27 /* robotnormal.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0D987EAA1C11CA520016CF27 /* robotnormal.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,31 +62,31 @@
 		0D24AB881BFF70B9004E4EA7 /* AudioTouchPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTouchPadTests.swift; sourceTree = "<group>"; };
 		0D24AB8A1BFF70B9004E4EA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D24AB9E1BFF7B18004E4EA7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		0D4647E01C0F45530059214A /* robotnormal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = robotnormal.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/robotnormal.wav"; sourceTree = "<group>"; };
-		0D4647E11C0F45530059214A /* myishish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = myishish.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/myishish.wav"; sourceTree = "<group>"; };
-		0D4647E21C0F45530059214A /* dubstep01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep01.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep01.wav"; sourceTree = "<group>"; };
-		0D4647E31C0F45530059214A /* bassdrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bassdrop.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/bassdrop.wav"; sourceTree = "<group>"; };
-		0D4647E41C0F45530059214A /* dubstep10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep10.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep10.wav"; sourceTree = "<group>"; };
-		0D4647E51C0F45530059214A /* dropthisbeast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dropthisbeast.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dropthisbeast.wav"; sourceTree = "<group>"; };
-		0D4647E61C0F45530059214A /* scratcher.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = scratcher.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/scratcher.wav"; sourceTree = "<group>"; };
-		0D4647E71C0F45530059214A /* robotface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = robotface.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/robotface.wav"; sourceTree = "<group>"; };
-		0D4647E81C0F45530059214A /* dubstep12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep12.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep12.wav"; sourceTree = "<group>"; };
-		0D4647E91C0F45530059214A /* dubstep11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep11.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep11.wav"; sourceTree = "<group>"; };
-		0D4647EA1C0F45530059214A /* snapfui.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = snapfui.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/snapfui.wav"; sourceTree = "<group>"; };
-		0D4647EB1C0F45530059214A /* superrobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = superrobot.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/superrobot.wav"; sourceTree = "<group>"; };
-		0D4647EC1C0F45530059214A /* robotloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = robotloop.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/robotloop.wav"; sourceTree = "<group>"; };
-		0D4647ED1C0F45530059214A /* silverrobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = silverrobot.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/silverrobot.wav"; sourceTree = "<group>"; };
-		0D4647EE1C0F45530059214A /* three.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = three.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/three.wav"; sourceTree = "<group>"; };
-		0D4647EF1C0F45530059214A /* dubstep07.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep07.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep07.wav"; sourceTree = "<group>"; };
-		0D4647F01C0F45530059214A /* dubstep05.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep05.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep05.wav"; sourceTree = "<group>"; };
-		0D4647F11C0F45530059214A /* dubstep04.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep04.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep04.wav"; sourceTree = "<group>"; };
-		0D4647F21C0F45530059214A /* dubstep03.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep03.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep03.wav"; sourceTree = "<group>"; };
-		0D4647F31C0F45530059214A /* guitarslayer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = guitarslayer.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/guitarslayer.wav"; sourceTree = "<group>"; };
-		0D4647F41C0F45530059214A /* growlchop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = growlchop.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/growlchop.wav"; sourceTree = "<group>"; };
-		0D4647F51C0F45530059214A /* glitchyvoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = glitchyvoice.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/glitchyvoice.wav"; sourceTree = "<group>"; };
-		0D4647F61C0F45530059214A /* dubstep08.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = dubstep08.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/dubstep08.wav"; sourceTree = "<group>"; };
-		0D4647F71C0F45530059214A /* robotglitch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = robotglitch.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/robotglitch.wav"; sourceTree = "<group>"; };
-		0D4647F81C0F45530059214A /* heavydrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = heavydrop.wav; path = "../../Downloads/12784__looppacks__dubstep-loop-pack-140-bpm/heavydrop.wav"; sourceTree = "<group>"; };
+		0D987E921C11CA520016CF27 /* superrobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = superrobot.wav; sourceTree = "<group>"; };
+		0D987E931C11CA520016CF27 /* heavydrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heavydrop.wav; sourceTree = "<group>"; };
+		0D987E941C11CA520016CF27 /* robotglitch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = robotglitch.wav; sourceTree = "<group>"; };
+		0D987E951C11CA520016CF27 /* dubstep6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep6.wav; sourceTree = "<group>"; };
+		0D987E961C11CA520016CF27 /* glitchyvoice.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glitchyvoice.wav; sourceTree = "<group>"; };
+		0D987E971C11CA520016CF27 /* growlchop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = growlchop.wav; sourceTree = "<group>"; };
+		0D987E981C11CA520016CF27 /* guitarslayer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = guitarslayer.wav; sourceTree = "<group>"; };
+		0D987E991C11CA520016CF27 /* dubstep2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep2.wav; sourceTree = "<group>"; };
+		0D987E9A1C11CA520016CF27 /* dubstep3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep3.wav; sourceTree = "<group>"; };
+		0D987E9B1C11CA520016CF27 /* dubstep4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep4.wav; sourceTree = "<group>"; };
+		0D987E9C1C11CA520016CF27 /* dubstep5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep5.wav; sourceTree = "<group>"; };
+		0D987E9D1C11CA520016CF27 /* three.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = three.wav; sourceTree = "<group>"; };
+		0D987E9E1C11CA520016CF27 /* silverrobot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silverrobot.wav; sourceTree = "<group>"; };
+		0D987E9F1C11CA520016CF27 /* robotloop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = robotloop.wav; sourceTree = "<group>"; };
+		0D987EA01C11CA520016CF27 /* snapfui.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = snapfui.wav; sourceTree = "<group>"; };
+		0D987EA11C11CA520016CF27 /* dubstep8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep8.wav; sourceTree = "<group>"; };
+		0D987EA21C11CA520016CF27 /* dubstep9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep9.wav; sourceTree = "<group>"; };
+		0D987EA31C11CA520016CF27 /* robotface.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = robotface.wav; sourceTree = "<group>"; };
+		0D987EA41C11CA520016CF27 /* scratcher.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scratcher.wav; sourceTree = "<group>"; };
+		0D987EA51C11CA520016CF27 /* dropthisbeast.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dropthisbeast.wav; sourceTree = "<group>"; };
+		0D987EA61C11CA520016CF27 /* dubstep1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep1.wav; sourceTree = "<group>"; };
+		0D987EA71C11CA520016CF27 /* dubstep7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dubstep7.wav; sourceTree = "<group>"; };
+		0D987EA81C11CA520016CF27 /* bassdrop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bassdrop.wav; sourceTree = "<group>"; };
+		0D987EA91C11CA520016CF27 /* myishish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = myishish.wav; sourceTree = "<group>"; };
+		0D987EAA1C11CA520016CF27 /* robotnormal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = robotnormal.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,31 +152,31 @@
 		0D24AB9D1BFF74F9004E4EA7 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				0D4647E01C0F45530059214A /* robotnormal.wav */,
-				0D4647E11C0F45530059214A /* myishish.wav */,
-				0D4647E21C0F45530059214A /* dubstep01.wav */,
-				0D4647E31C0F45530059214A /* bassdrop.wav */,
-				0D4647E41C0F45530059214A /* dubstep10.wav */,
-				0D4647E51C0F45530059214A /* dropthisbeast.wav */,
-				0D4647E61C0F45530059214A /* scratcher.wav */,
-				0D4647E71C0F45530059214A /* robotface.wav */,
-				0D4647E81C0F45530059214A /* dubstep12.wav */,
-				0D4647E91C0F45530059214A /* dubstep11.wav */,
-				0D4647EA1C0F45530059214A /* snapfui.wav */,
-				0D4647EB1C0F45530059214A /* superrobot.wav */,
-				0D4647EC1C0F45530059214A /* robotloop.wav */,
-				0D4647ED1C0F45530059214A /* silverrobot.wav */,
-				0D4647EE1C0F45530059214A /* three.wav */,
-				0D4647EF1C0F45530059214A /* dubstep07.wav */,
-				0D4647F01C0F45530059214A /* dubstep05.wav */,
-				0D4647F11C0F45530059214A /* dubstep04.wav */,
-				0D4647F21C0F45530059214A /* dubstep03.wav */,
-				0D4647F31C0F45530059214A /* guitarslayer.wav */,
-				0D4647F41C0F45530059214A /* growlchop.wav */,
-				0D4647F51C0F45530059214A /* glitchyvoice.wav */,
-				0D4647F61C0F45530059214A /* dubstep08.wav */,
-				0D4647F71C0F45530059214A /* robotglitch.wav */,
-				0D4647F81C0F45530059214A /* heavydrop.wav */,
+				0D987EA81C11CA520016CF27 /* bassdrop.wav */,
+				0D987EA51C11CA520016CF27 /* dropthisbeast.wav */,
+				0D987EA61C11CA520016CF27 /* dubstep1.wav */,
+				0D987E991C11CA520016CF27 /* dubstep2.wav */,
+				0D987E9A1C11CA520016CF27 /* dubstep3.wav */,
+				0D987E9B1C11CA520016CF27 /* dubstep4.wav */,
+				0D987E9C1C11CA520016CF27 /* dubstep5.wav */,
+				0D987E951C11CA520016CF27 /* dubstep6.wav */,
+				0D987EA71C11CA520016CF27 /* dubstep7.wav */,
+				0D987EA11C11CA520016CF27 /* dubstep8.wav */,
+				0D987EA21C11CA520016CF27 /* dubstep9.wav */,
+				0D987E961C11CA520016CF27 /* glitchyvoice.wav */,
+				0D987E971C11CA520016CF27 /* growlchop.wav */,
+				0D987E981C11CA520016CF27 /* guitarslayer.wav */,
+				0D987E931C11CA520016CF27 /* heavydrop.wav */,
+				0D987EA91C11CA520016CF27 /* myishish.wav */,
+				0D987EA31C11CA520016CF27 /* robotface.wav */,
+				0D987E941C11CA520016CF27 /* robotglitch.wav */,
+				0D987E9F1C11CA520016CF27 /* robotloop.wav */,
+				0D987EAA1C11CA520016CF27 /* robotnormal.wav */,
+				0D987EA41C11CA520016CF27 /* scratcher.wav */,
+				0D987E9E1C11CA520016CF27 /* silverrobot.wav */,
+				0D987EA01C11CA520016CF27 /* snapfui.wav */,
+				0D987E921C11CA520016CF27 /* superrobot.wav */,
+				0D987E9D1C11CA520016CF27 /* three.wav */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -261,34 +261,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D4648021C0F45530059214A /* dubstep11.wav in Resources */,
 				0D24AB7E1BFF70B9004E4EA7 /* LaunchScreen.storyboard in Resources */,
-				0D4647FF1C0F45530059214A /* scratcher.wav in Resources */,
-				0D46480B1C0F45530059214A /* dubstep03.wav in Resources */,
 				0D24AB7B1BFF70B9004E4EA7 /* Assets.xcassets in Resources */,
-				0D4647FB1C0F45530059214A /* dubstep01.wav in Resources */,
-				0D4648051C0F45530059214A /* robotloop.wav in Resources */,
-				0D46480F1C0F45530059214A /* dubstep08.wav in Resources */,
-				0D4648031C0F45530059214A /* snapfui.wav in Resources */,
-				0D4648071C0F45530059214A /* three.wav in Resources */,
-				0D4648001C0F45530059214A /* robotface.wav in Resources */,
-				0D4648061C0F45530059214A /* silverrobot.wav in Resources */,
-				0D4647FC1C0F45530059214A /* bassdrop.wav in Resources */,
-				0D4647FE1C0F45530059214A /* dropthisbeast.wav in Resources */,
-				0D4647FA1C0F45530059214A /* myishish.wav in Resources */,
-				0D46480A1C0F45530059214A /* dubstep04.wav in Resources */,
-				0D4648041C0F45530059214A /* superrobot.wav in Resources */,
-				0D4647F91C0F45530059214A /* robotnormal.wav in Resources */,
-				0D4648011C0F45530059214A /* dubstep12.wav in Resources */,
-				0D4648091C0F45530059214A /* dubstep05.wav in Resources */,
+				0D987EC01C11CA520016CF27 /* dubstep7.wav in Resources */,
+				0D987EAE1C11CA520016CF27 /* dubstep6.wav in Resources */,
+				0D987EBB1C11CA520016CF27 /* dubstep9.wav in Resources */,
+				0D987EBE1C11CA520016CF27 /* dropthisbeast.wav in Resources */,
+				0D987EC11C11CA520016CF27 /* bassdrop.wav in Resources */,
+				0D987EBC1C11CA520016CF27 /* robotface.wav in Resources */,
+				0D987EB51C11CA520016CF27 /* dubstep5.wav in Resources */,
+				0D987EB01C11CA520016CF27 /* growlchop.wav in Resources */,
+				0D987EBA1C11CA520016CF27 /* dubstep8.wav in Resources */,
+				0D987EB61C11CA520016CF27 /* three.wav in Resources */,
+				0D987EC21C11CA520016CF27 /* myishish.wav in Resources */,
+				0D987EB71C11CA520016CF27 /* silverrobot.wav in Resources */,
 				0D24AB791BFF70B9004E4EA7 /* Main.storyboard in Resources */,
-				0D46480E1C0F45530059214A /* glitchyvoice.wav in Resources */,
-				0D46480C1C0F45530059214A /* guitarslayer.wav in Resources */,
-				0D4647FD1C0F45530059214A /* dubstep10.wav in Resources */,
-				0D4648101C0F45530059214A /* robotglitch.wav in Resources */,
-				0D4648111C0F45530059214A /* heavydrop.wav in Resources */,
-				0D4648081C0F45530059214A /* dubstep07.wav in Resources */,
-				0D46480D1C0F45530059214A /* growlchop.wav in Resources */,
+				0D987EAC1C11CA520016CF27 /* heavydrop.wav in Resources */,
+				0D987EBD1C11CA520016CF27 /* scratcher.wav in Resources */,
+				0D987EB81C11CA520016CF27 /* robotloop.wav in Resources */,
+				0D987EB11C11CA520016CF27 /* guitarslayer.wav in Resources */,
+				0D987EB91C11CA520016CF27 /* snapfui.wav in Resources */,
+				0D987EBF1C11CA520016CF27 /* dubstep1.wav in Resources */,
+				0D987EAD1C11CA520016CF27 /* robotglitch.wav in Resources */,
+				0D987EB31C11CA520016CF27 /* dubstep3.wav in Resources */,
+				0D987EB41C11CA520016CF27 /* dubstep4.wav in Resources */,
+				0D987EB21C11CA520016CF27 /* dubstep2.wav in Resources */,
+				0D987EAF1C11CA520016CF27 /* glitchyvoice.wav in Resources */,
+				0D987EC31C11CA520016CF27 /* robotnormal.wav in Resources */,
+				0D987EAB1C11CA520016CF27 /* superrobot.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,76 +18,192 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkk-cG-0CA">
-                                <rect key="frame" x="20" y="504" width="560" height="76"/>
+                                <rect key="frame" x="20" y="562" width="560" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.029556935406970242" blue="0.17627491307134757" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Loop">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CRu-T8-cRd"/>
+                                    <constraint firstAttribute="width" constant="560" id="nHJ-AT-6ng"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="↻">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <action selector="loopToggle:" destination="BYZ-38-t0r" eventType="touchDown" id="vgC-lE-BIX"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-te-TTV">
-                                <rect key="frame" x="20" y="20" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ZYf-2E-wWU">
+                                <rect key="frame" x="540" y="514" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Bass Drop">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="hAs-00-t9A"/>
+                                    <constraint firstAttribute="height" constant="40" id="zzq-M7-NSS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 9">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playBassDrop:" destination="BYZ-38-t0r" eventType="touchDown" id="Pqk-6K-PuA"/>
+                                    <action selector="playDubstep9:" destination="BYZ-38-t0r" eventType="touchDown" id="yaa-tO-k5v"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ykR-5B-5dB">
-                                <rect key="frame" x="505" y="20" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="8Dx-te-TTV">
+                                <rect key="frame" x="20" y="514" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Glitch Voice">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yvO-ls-YkK">
-                                <rect key="frame" x="120" y="20" width="75" height="75"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Heavy Drop">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="2HU-IT-b6k"/>
+                                    <constraint firstAttribute="height" constant="40" id="B2V-zO-OWi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playHeavyDrop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v03-k5-eUo"/>
+                                    <action selector="playDubstep1:" destination="BYZ-38-t0r" eventType="touchDown" id="Gcb-SY-gok"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-ye-xtg">
-                                <rect key="frame" x="220" y="20" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CJV-ye-xtg">
+                                <rect key="frame" x="68" y="514" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Guitar Slayer">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Hhu-lX-bdr"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZL8-Us-c4C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playDubstep2:" destination="BYZ-38-t0r" eventType="touchDown" id="AD6-uE-GJr"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CX7-Ne-wtG">
-                                <rect key="frame" x="305" y="20" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yvO-ls-YkK">
+                                <rect key="frame" x="116" y="514" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Scratcher">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5n7-Hs-C14"/>
+                                    <constraint firstAttribute="width" constant="40" id="RCM-pf-GKG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="♪ 3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playDubstep3:" destination="BYZ-38-t0r" eventType="touchDown" id="ZAT-UT-cgB"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GDf-Tx-yIk">
-                                <rect key="frame" x="405" y="20" width="75" height="75"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="CX7-Ne-wtG">
+                                <rect key="frame" x="232" y="514" width="40" height="40"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Growl Chop">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0qL-fO-Vu5"/>
+                                    <constraint firstAttribute="width" constant="40" id="OnF-Vz-tOc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playDubstep4:" destination="BYZ-38-t0r" eventType="touchDown" id="oMg-cw-0vn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GDf-Tx-yIk">
+                                <rect key="frame" x="280" y="514" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="51o-xd-5eT"/>
+                                    <constraint firstAttribute="width" constant="40" id="S3r-VU-N77"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 5">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playDubstep5:" destination="BYZ-38-t0r" eventType="touchDown" id="Tlj-LP-SAf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ykR-5B-5dB">
+                                <rect key="frame" x="328" y="514" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4Eq-VQ-wW5"/>
+                                    <constraint firstAttribute="width" constant="40" id="pl0-gr-3QA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 6">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playDubstep6:" destination="BYZ-38-t0r" eventType="touchDown" id="szu-z8-9hL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="l6u-DE-UAe">
+                                <rect key="frame" x="444" y="514" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="cN5-hY-jAC"/>
+                                    <constraint firstAttribute="height" constant="40" id="fd5-Em-Bc2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 7">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playDubstep7:" destination="BYZ-38-t0r" eventType="touchDown" id="MRp-8f-27D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="NQe-GU-mqY">
+                                <rect key="frame" x="492" y="514" width="40" height="40"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="3YE-8m-KN4"/>
+                                    <constraint firstAttribute="height" constant="40" id="aYS-xf-jDK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="♪ 8">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playDubstep8:" destination="BYZ-38-t0r" eventType="touchDown" id="919-7C-7f2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="484" id="FVs-q6-o9E"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dkk-cG-0CA" secondAttribute="trailing" id="KyG-8y-TMz"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dkk-cG-0CA" secondAttribute="bottom" constant="20" id="Qjn-SF-3bl"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="dkk-cG-0CA" secondAttribute="leading" id="TGu-aw-XMC"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="dkk-cG-0CA" secondAttribute="leading" id="4sh-51-YsO"/>
+                            <constraint firstItem="GDf-Tx-yIk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8bJ-IW-erj"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="l6u-DE-UAe" secondAttribute="bottom" constant="8" id="AGj-Ud-niG"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="CJV-ye-xtg" secondAttribute="bottom" constant="8" id="IUW-A3-wvr"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="NQe-GU-mqY" secondAttribute="bottom" constant="8" id="LHY-1m-vdF"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="ZYf-2E-wWU" secondAttribute="bottom" constant="8" id="PVK-dh-Nuy"/>
+                            <constraint firstItem="NQe-GU-mqY" firstAttribute="leading" secondItem="l6u-DE-UAe" secondAttribute="trailing" constant="8" id="PY7-gH-Xtp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dkk-cG-0CA" secondAttribute="trailing" id="QhH-2H-goE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ZYf-2E-wWU" secondAttribute="trailing" id="ROq-Hj-mjb"/>
+                            <constraint firstItem="GDf-Tx-yIk" firstAttribute="leading" secondItem="CX7-Ne-wtG" secondAttribute="trailing" constant="8" id="ULN-rO-ud6"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="8Dx-te-TTV" secondAttribute="leading" id="Ycp-Df-mHo"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="CX7-Ne-wtG" secondAttribute="bottom" constant="8" id="Zyc-PR-tSt"/>
+                            <constraint firstItem="yvO-ls-YkK" firstAttribute="leading" secondItem="CJV-ye-xtg" secondAttribute="trailing" constant="8" id="cYB-nd-L37"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="ykR-5B-5dB" secondAttribute="bottom" constant="8" id="cxp-Za-52O"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="8Dx-te-TTV" secondAttribute="bottom" constant="8" id="ehc-i8-AvE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dkk-cG-0CA" secondAttribute="bottom" constant="8" id="u1c-il-F4m"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="yvO-ls-YkK" secondAttribute="bottom" constant="8" id="udd-V9-iOp"/>
+                            <constraint firstItem="ZYf-2E-wWU" firstAttribute="leading" secondItem="NQe-GU-mqY" secondAttribute="trailing" constant="8" id="udz-hB-6e8"/>
+                            <constraint firstItem="CJV-ye-xtg" firstAttribute="leading" secondItem="8Dx-te-TTV" secondAttribute="trailing" constant="8" id="vhm-f4-7Ae"/>
+                            <constraint firstItem="dkk-cG-0CA" firstAttribute="top" secondItem="GDf-Tx-yIk" secondAttribute="bottom" constant="8" id="xVS-p5-eF9"/>
+                            <constraint firstItem="ykR-5B-5dB" firstAttribute="leading" secondItem="GDf-Tx-yIk" secondAttribute="trailing" constant="8" id="xzg-2a-V90"/>
                         </constraints>
                     </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
-                        <outlet property="bassDropButton" destination="8Dx-te-TTV" id="Hsq-rV-vxC"/>
-                        <outlet property="heavyDropButton" destination="yvO-ls-YkK" id="qzF-wG-0HN"/>
+                        <outlet property="dubstep1Button" destination="8Dx-te-TTV" id="a92-XV-k8o"/>
+                        <outlet property="dubstep2Button" destination="CJV-ye-xtg" id="fWD-nL-hJb"/>
+                        <outlet property="dubstep3Button" destination="yvO-ls-YkK" id="Elr-a7-b94"/>
+                        <outlet property="dubstep4Button" destination="CX7-Ne-wtG" id="sNO-9Y-WzO"/>
+                        <outlet property="dubstep5Button" destination="GDf-Tx-yIk" id="HLL-t4-U5K"/>
+                        <outlet property="dubstep6Button" destination="ykR-5B-5dB" id="tTe-eJ-q9X"/>
+                        <outlet property="dubstep7Button" destination="l6u-DE-UAe" id="Mhb-5S-np9"/>
+                        <outlet property="dubstep8Button" destination="NQe-GU-mqY" id="Pr3-FW-eCS"/>
+                        <outlet property="dubstep9Button" destination="ZYf-2E-wWU" id="iZM-7r-fGN"/>
                         <outlet property="loopButton" destination="dkk-cG-0CA" id="w5e-Cy-I8f"/>
                     </connections>
                 </viewController>
