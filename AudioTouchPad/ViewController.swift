@@ -260,14 +260,44 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     @IBOutlet weak var silverRobotButton: UIButton!
     var silverRobotLoop = false
-    @IBAction func playsilverRobot(sender: AnyObject) {
+    @IBAction func playSilverRobot(sender: AnyObject) {
         playSound(silverRobot!, button: silverRobotButton, isLoop: &silverRobotLoop)
     }
     
     @IBOutlet weak var superRobotButton: UIButton!
     var superRobotLoop = false
-    @IBAction func playsuperRobot(sender: AnyObject) {
+    @IBAction func playSuperRobot(sender: AnyObject) {
         playSound(superRobot!, button: superRobotButton, isLoop: &superRobotLoop)
+    }
+    
+    @IBOutlet weak var growlChopButton: UIButton!
+    var growlChopLoop = false
+    @IBAction func playGrowlChop(sender: AnyObject) {
+        playSound(growlChop!, button: growlChopButton, isLoop: &growlChopLoop)
+    }
+    
+    @IBOutlet weak var guitarSlayerButton: UIButton!
+    var guitarSlayerLoop = false
+    @IBAction func playGuitarSlayer(sender: AnyObject) {
+        playSound(guitarSlayer!, button: guitarSlayerButton, isLoop: &guitarSlayerLoop)
+    }
+    
+    @IBOutlet weak var scratcherButton: UIButton!
+    var scratcherLoop = false
+    @IBAction func playScratcher(sender: AnyObject) {
+        playSound(scratcher!, button: scratcherButton, isLoop: &scratcherLoop)
+    }
+    
+    @IBOutlet weak var dropThisBeastButton: UIButton!
+    var dropThisBeastLoop = false
+    @IBAction func playDropThisBeast(sender: AnyObject) {
+        playSound(dropThisBeast!, button: dropThisBeastButton, isLoop: &dropThisBeastLoop)
+    }
+    
+    @IBOutlet weak var glitchyVoiceButton: UIButton!
+    var glitchyVoiceLoop = false
+    @IBAction func playGlitchyVoice(sender: AnyObject) {
+        playSound(glitchyVoice!, button: glitchyVoiceButton, isLoop: &glitchyVoiceLoop)
     }
 }
 

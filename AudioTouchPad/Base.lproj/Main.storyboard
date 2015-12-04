@@ -239,7 +239,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playsilverRobot:" destination="BYZ-38-t0r" eventType="touchDown" id="Baw-IT-fPn"/>
+                                    <action selector="playSilverRobot:" destination="BYZ-38-t0r" eventType="touchDown" id="col-LT-7jQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSk-rx-cjj">
@@ -254,7 +254,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playsuperRobot:" destination="BYZ-38-t0r" eventType="touchDown" id="t26-Ze-erO"/>
+                                    <action selector="playSuperRobot:" destination="BYZ-38-t0r" eventType="touchDown" id="LCL-qP-bMI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bob-i4-XWe">
@@ -268,6 +268,9 @@
                                 <state key="normal" title="☻ 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playDropThisBeast:" destination="BYZ-38-t0r" eventType="touchDown" id="q0y-CO-RYp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zss-FQ-yK8">
                                 <rect key="frame" x="68" y="398" width="40" height="40"/>
@@ -280,6 +283,9 @@
                                 <state key="normal" title="☻ 2">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playGlitchyVoice:" destination="BYZ-38-t0r" eventType="touchDown" id="bCo-Bo-xfF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gak-MR-auN">
                                 <rect key="frame" x="116" y="398" width="40" height="40"/>
@@ -340,6 +346,9 @@
                                 <state key="normal" title="★ 1">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playGrowlChop:" destination="BYZ-38-t0r" eventType="touchDown" id="VsE-X7-tyD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2z5-Gz-gC6">
                                 <rect key="frame" x="492" y="456" width="40" height="40"/>
@@ -353,6 +362,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playGuitarSlayer:" destination="BYZ-38-t0r" eventType="touchDown" id="r4n-2Y-5KG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YI5-lZ-dSr">
                                 <rect key="frame" x="540" y="456" width="40" height="40"/>
@@ -365,6 +377,9 @@
                                 <state key="normal" title="★ 3">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="playScratcher:" destination="BYZ-38-t0r" eventType="touchDown" id="LKt-dB-9EC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -424,6 +439,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="dropThisBeastButton" destination="bob-i4-XWe" id="azX-F3-fgt"/>
                         <outlet property="dubstep1Button" destination="8Dx-te-TTV" id="a92-XV-k8o"/>
                         <outlet property="dubstep2Button" destination="CJV-ye-xtg" id="fWD-nL-hJb"/>
                         <outlet property="dubstep3Button" destination="yvO-ls-YkK" id="Elr-a7-b94"/>
@@ -433,11 +449,15 @@
                         <outlet property="dubstep7Button" destination="l6u-DE-UAe" id="Mhb-5S-np9"/>
                         <outlet property="dubstep8Button" destination="NQe-GU-mqY" id="Pr3-FW-eCS"/>
                         <outlet property="dubstep9Button" destination="ZYf-2E-wWU" id="iZM-7r-fGN"/>
+                        <outlet property="glitchyVoiceButton" destination="Zss-FQ-yK8" id="uQE-b3-IXa"/>
+                        <outlet property="growlChopButton" destination="aHM-7H-Ryu" id="qYS-64-X4n"/>
+                        <outlet property="guitarSlayerButton" destination="2z5-Gz-gC6" id="ZKw-if-9pB"/>
                         <outlet property="loopButton" destination="dkk-cG-0CA" id="w5e-Cy-I8f"/>
                         <outlet property="robotFaceButton" destination="5AM-wn-7Hi" id="w6e-q7-gWv"/>
                         <outlet property="robotGlitchButton" destination="x5J-9o-N5L" id="nmD-d5-Vy1"/>
                         <outlet property="robotLoopButton" destination="DU0-0y-jLy" id="Fp4-vY-Lyn"/>
                         <outlet property="robotNormalButton" destination="moS-Y4-y1U" id="lgt-dX-id2"/>
+                        <outlet property="scratcherButton" destination="YI5-lZ-dSr" id="yig-MY-YDz"/>
                         <outlet property="silverRobotButton" destination="aDE-hK-9Jm" id="EMQ-f2-ppE"/>
                         <outlet property="superRobotButton" destination="NSk-rx-cjj" id="zT9-zK-4bv"/>
                     </connections>
