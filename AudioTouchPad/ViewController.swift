@@ -233,5 +233,41 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBAction func playDubstep9(sender: AnyObject) {
         playSound(dubstep9!, button: dubstep9Button, isLoop: &dubstep9Loop)
     }
+    
+    @IBOutlet weak var robotFaceButton: UIButton!
+    var robotFaceLoop = false
+    @IBAction func playRobotFace(sender: AnyObject) {
+        playSound(robotFace!, button: robotFaceButton, isLoop: &robotFaceLoop)
+    }
+    
+    @IBOutlet weak var robotGlitchButton: UIButton!
+    var robotGlitchLoop = false
+    @IBAction func playRobotGlitch(sender: AnyObject) {
+        playSound(robotGlitch!, button: robotGlitchButton, isLoop: &robotGlitchLoop)
+    }
+    
+    @IBOutlet weak var robotLoopButton: UIButton!
+    var robotLoopLoop = false
+    @IBAction func playRobotLoop(sender: AnyObject) {
+        playSound(robotLoop!, button: robotLoopButton, isLoop: &robotLoopLoop)
+    }
+    
+    @IBOutlet weak var robotNormalButton: UIButton!
+    var robotNormalLoop = false
+    @IBAction func playRobotNormal(sender: AnyObject) {
+        playSound(robotNormal!, button: robotNormalButton, isLoop: &robotNormalLoop)
+    }
+    
+    @IBOutlet weak var silverRobotButton: UIButton!
+    var silverRobotLoop = false
+    @IBAction func playsilverRobot(sender: AnyObject) {
+        playSound(silverRobot!, button: silverRobotButton, isLoop: &silverRobotLoop)
+    }
+    
+    @IBOutlet weak var superRobotButton: UIButton!
+    var superRobotLoop = false
+    @IBAction func playsuperRobot(sender: AnyObject) {
+        playSound(superRobot!, button: superRobotButton, isLoop: &superRobotLoop)
+    }
 }
 
