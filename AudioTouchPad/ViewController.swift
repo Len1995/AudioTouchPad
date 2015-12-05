@@ -167,6 +167,13 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
+    func stopSound(audio: AVAudioPlayer, button: UIButton, inout isLoop: Bool) {
+        audio.stop()
+        audio.currentTime = 0
+        button.backgroundColor = UIColor.darkGrayColor()
+        isLoop = false
+    }
+    
     //Loop button
     @IBOutlet weak var loopButton: UIButton!
     @IBAction func loopToggle(sender: AnyObject) {
@@ -178,6 +185,37 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             loop = false
             loopButton.backgroundColor = UIColor.redColor()
         }
+    }
+    
+    
+    
+    @IBOutlet weak var stopButton: UIButton!
+    @IBAction func pressStopButton(sender: AnyObject) {
+        stopSound(dubstep1!, button: dubstep1Button, isLoop: &dubstep1Loop)
+        stopSound(dubstep2!, button: dubstep2Button, isLoop: &dubstep2Loop)
+        stopSound(dubstep3!, button: dubstep3Button, isLoop: &dubstep3Loop)
+        stopSound(dubstep4!, button: dubstep4Button, isLoop: &dubstep4Loop)
+        stopSound(dubstep5!, button: dubstep5Button, isLoop: &dubstep5Loop)
+        stopSound(dubstep6!, button: dubstep6Button, isLoop: &dubstep6Loop)
+        stopSound(dubstep7!, button: dubstep7Button, isLoop: &dubstep7Loop)
+        stopSound(dubstep8!, button: dubstep8Button, isLoop: &dubstep8Loop)
+        stopSound(dubstep9!, button: dubstep9Button, isLoop: &dubstep9Loop)
+        stopSound(bassDrop!, button: bassDropButton, isLoop: &bassDropLoop)
+        stopSound(dropThisBeast!, button: dropThisBeastButton, isLoop: &dropThisBeastLoop)
+        stopSound(glitchyVoice!, button: glitchyVoiceButton, isLoop: &glitchyVoiceLoop)
+        stopSound(growlChop!, button: growlChopButton, isLoop: &growlChopLoop)
+        stopSound(guitarSlayer!, button: guitarSlayerButton, isLoop: &guitarSlayerLoop)
+        stopSound(heavyDrop!, button: heavyDropButton, isLoop: &heavyDropLoop)
+        stopSound(myishish!, button: myishishButton, isLoop: &myishishLoop)
+        stopSound(robotFace!, button: robotFaceButton, isLoop: &robotFaceLoop)
+        stopSound(robotGlitch!, button: robotGlitchButton, isLoop: &robotGlitchLoop)
+        stopSound(robotLoop!, button: robotLoopButton, isLoop: &robotLoopLoop)
+        stopSound(robotNormal!, button: robotNormalButton, isLoop: &robotNormalLoop)
+        stopSound(scratcher!, button: scratcherButton, isLoop: &scratcherLoop)
+        stopSound(snapfui!, button: snapfuiButton, isLoop: &snapfuiLoop)
+        stopSound(superRobot!, button: superRobotButton, isLoop: &superRobotLoop)
+        stopSound(silverRobot!, button: silverRobotButton, isLoop: &silverRobotLoop)
+        stopSound(three!, button: threeButton, isLoop: &threeLoop)
     }
     
     @IBOutlet weak var dubstep1Button: UIButton!
@@ -299,5 +337,36 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBAction func playGlitchyVoice(sender: AnyObject) {
         playSound(glitchyVoice!, button: glitchyVoiceButton, isLoop: &glitchyVoiceLoop)
     }
+    
+    @IBOutlet weak var myishishButton: UIButton!
+    var myishishLoop = false
+    @IBAction func playMyishish(sender: AnyObject) {
+        playSound(myishish!, button: myishishButton, isLoop: &myishishLoop)
+    }
+    
+    @IBOutlet weak var snapfuiButton: UIButton!
+    var snapfuiLoop = false
+    @IBAction func playSnapfui(sender: AnyObject) {
+        playSound(snapfui!, button: snapfuiButton, isLoop: &snapfuiLoop)
+    }
+    
+    @IBOutlet weak var threeButton: UIButton!
+    var threeLoop = false
+    @IBAction func playThree(sender: AnyObject) {
+        playSound(three!, button: threeButton, isLoop: &threeLoop)
+    }
+    
+    @IBOutlet weak var bassDropButton: UIButton!
+    var bassDropLoop = false
+    @IBAction func playBassDrop(sender: AnyObject) {
+        playSound(bassDrop!, button: bassDropButton, isLoop: &bassDropLoop)
+    }
+    
+    @IBOutlet weak var heavyDropButton: UIButton!
+    var heavyDropLoop = false
+    @IBAction func heavyBassDrop(sender: AnyObject) {
+        playSound(heavyDrop!, button: heavyDropButton, isLoop: &heavyDropLoop)
+    }
+    
 }
 
