@@ -4,7 +4,7 @@
 //
 //  Created by Glen Malone on 20/11/2015.
 //  Copyright © 2015 20063251. All rights reserved.
-//
+//  Sounds from https://www.freesound.org/people/LoopPacks/packs/12784/
 
 import UIKit
 //Imported AVFoundation as Audio Framework
@@ -58,6 +58,15 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         return audioPlayer
     }
+    
+    //function for rounding buttons
+    func roundButton(button: UIButton) {
+        button.backgroundColor = UIColor.darkGrayColor()
+        button.layer.cornerRadius = 5
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.blackColor().CGColor
+    }
+    
     
     override func viewDidLoad() {
         //Loads all sounds to appropriate sound type variable
@@ -136,7 +145,31 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         if let three = self.setupAudioPlayerWithFile("three", type:"wav") {
             self.three = three
         }
-
+        roundButton(bassDropButton)
+        roundButton(dropThisBeastButton)
+        roundButton(dubstep1Button)
+        roundButton(dubstep2Button)
+        roundButton(dubstep3Button)
+        roundButton(dubstep4Button)
+        roundButton(dubstep5Button)
+        roundButton(dubstep6Button)
+        roundButton(dubstep7Button)
+        roundButton(dubstep8Button)
+        roundButton(dubstep9Button)
+        roundButton(glitchyVoiceButton)
+        roundButton(growlChopButton)
+        roundButton(guitarSlayerButton)
+        roundButton(heavyDropButton)
+        roundButton(myishishButton)
+        roundButton(robotFaceButton)
+        roundButton(robotGlitchButton)
+        roundButton(robotLoopButton)
+        roundButton(robotNormalButton)
+        roundButton(scratcherButton)
+        roundButton(silverRobotButton)
+        roundButton(snapfuiButton)
+        roundButton(superRobotButton)
+        roundButton(threeButton)
         super.viewDidLoad()
         
     }
@@ -164,10 +197,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             button.backgroundColor = UIColor.blueColor()
         }
         else {
-            audio.stop()
-            audio.currentTime = 0
-            button.backgroundColor = UIColor.darkGrayColor()
-            isLoop = false
+            stopSound(audio, button: button, isLoop: &isLoop)
         }
     }
     
@@ -192,7 +222,6 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
             loopButton.backgroundColor = UIColor.redColor()
         }
     }
-    
     
     
     @IBOutlet weak var stopButton: UIButton!
