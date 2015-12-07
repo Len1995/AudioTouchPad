@@ -2,15 +2,17 @@
 //  ViewController.swift
 //  AudioTouchPad
 //
-//  Created by 20063251 on 20/11/2015.
+//  Created by Glen Malone on 20/11/2015.
 //  Copyright © 2015 20063251. All rights reserved.
 //
 
 import UIKit
+//Imported AVFoundation as Audio Framework
 import AVFoundation
 
 class ViewController: UIViewController, AVAudioPlayerDelegate {
     
+    //Created variables
     var loop = false;
     var bassDrop : AVAudioPlayer?
     var dropThisBeast : AVAudioPlayer?
@@ -38,6 +40,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     var superRobot : AVAudioPlayer?
     var three : AVAudioPlayer?
     
+    //Sound loading function
     func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer?  {
         //1
         let path = NSBundle.mainBundle().pathForResource(file as String, ofType: type as String)
@@ -57,7 +60,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     override func viewDidLoad() {
-        
+        //Loads all sounds to appropriate sound type variable
         if let bassDrop = self.setupAudioPlayerWithFile("bassdrop", type:"wav") {
             self.bassDrop = bassDrop
         }
@@ -145,6 +148,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     var isLoop = false
     func playSound(audio: AVAudioPlayer, button: UIButton, inout isLoop: Bool){
+        //plays sound, loops it, or stops it if need be
         if (loop == false && isLoop == false){
             audio.prepareToPlay()
             audio.play()
@@ -167,6 +171,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
+    //method for stopping sound
     func stopSound(audio: AVAudioPlayer, button: UIButton, inout isLoop: Bool) {
         audio.stop()
         audio.currentTime = 0
@@ -176,6 +181,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     //Loop button
     @IBOutlet weak var loopButton: UIButton!
+    //method for toggling loop functionality
     @IBAction func loopToggle(sender: AnyObject) {
         if (loop == false) {
             loop = true
@@ -190,6 +196,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     
     @IBOutlet weak var stopButton: UIButton!
+    //the stop button and all its methods
     @IBAction func pressStopButton(sender: AnyObject) {
         stopSound(dubstep1!, button: dubstep1Button, isLoop: &dubstep1Loop)
         stopSound(dubstep2!, button: dubstep2Button, isLoop: &dubstep2Loop)
@@ -218,6 +225,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         stopSound(three!, button: threeButton, isLoop: &threeLoop)
     }
     
+    //all sound buttons
     @IBOutlet weak var dubstep1Button: UIButton!
     var dubstep1Loop = false
     @IBAction func playDubstep1(sender: AnyObject) {
